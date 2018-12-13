@@ -1,0 +1,13 @@
+# -*- mode:org -*-
+#+TITLE: GFSS2018 final presentation
+
+this is a work on creating a Portuguese-language universal
+dependencies treebank based on the GF UD treebank. the treebank is
+bootstrapped using GF, using the techniques described [[http://csli-lilt.stanford.edu/ojs/index.php/LiLT/article/view/71][on this paper]].
+
+the treebank is at =por-ud.conllu=. the treebank generated with the
+concrete labels specification is at =empty-por-ud.conllu=. for
+reference there is also =eng-ud.conllu=.
+
+* notes
+GF summer summer schoool [[http://school.grammaticalframework.org/2018/][webpage]].

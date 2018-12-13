@@ -1,0 +1,445 @@
+1	as	DefArt	DET	Quant	_	2	det	_	_
+2	crianças	child_N	NOUN	N	_	0	root	_	_
+3	quando	when_Subj	SCONJ	Subj	_	6	mark	_	_
+4	nós	we_Pron	PRON	Pron	_	6	nsubj	_	_
+5	os	they_Pron	PRON	Pron	_	6	obj	_	_
+6	vemos	see_V2	VERB	V2	_	2	nmod	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	tenho	have_V2	VERB	V2	_	0	root	_	_
+3	uma	IndefArt	DET	Quant	_	4	det	_	_
+4	razão	reason_N	NOUN	N	_	2	obj	_	_
+5	de	EmbedVP	ADP	SC	_	6	mark	_	_
+6	ir	go_V	VERB	V	_	4	acl	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	gosto	like_V2	VERB	V2	_	0	root	_	_
+3	da	DefArt	DET	Quant	_	4	det	_	_
+4	regra	rule_N	NOUN	N	_	2	obj	_	_
+5	que	EmbedS	PRON	SC	_	9	nsubj	_	_
+6	os	DefArt	DET	Quant	_	7	det	_	_
+7	livros	book_N	NOUN	N	_	9	nsubj	_	_
+8	são	UseComp	VERB	VP	_	9	cop	_	_
+9	finos	thin_A	ADJ	A	_	4	acl	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	via	see_V2	VERB	V2	_	0	root	_	_
+3	o	DefArt	DET	Quant	_	4	det	_	_
+4	homem	man_N	NOUN	N	_	2	obj	_	_
+5	que	IdRP	PRON	RP	_	7	mark	_	_
+6	você	youSg_Pron	PRON	Pron	_	7	nsubj	_	_
+7	ama	love_V2	VERB	V2	_	4	acl	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	via	see_V2	VERB	V2	_	0	root	_	_
+3	o	DefArt	DET	Quant	_	4	det	_	_
+4	livro	book_N	NOUN	N	_	2	obj	_	_
+5	que	IdRP	PRON	RP	_	7	mark	_	_
+6	você	youSg_Pron	PRON	Pron	_	7	nsubj	_	_
+7	comprava	buy_V2	VERB	V2	_	4	acl	_	_
+
+
+1	o	DefArt	DET	Quant	_	2	det	_	_
+2	gato	cat_N	NOUN	N	_	3	nsubj	_	_
+3	saltava	jump_V	VERB	V	_	0	root	_	_
+4	quando	when_Subj	SCONJ	Subj	_	7	mark	_	_
+5	o	DefArt	DET	Quant	_	6	det	_	_
+6	cachorro	dog_N	NOUN	N	_	7	nsubj	_	_
+7	vinha	come_V	VERB	V	_	3	advmod	_	_
+
+
+1	se	if_Subj	SCONJ	Subj	_	3	mark	_	_
+2	você	youSg_Pron	PRON	Pron	_	3	nsubj	_	_
+3	sabe	know_VQ	VERB	VQ	_	9	advmod	_	_
+4	quem	whoSg_IP	PRON	IP	_	6	nsubj	_	_
+5	o	it_Pron	PRON	Pron	_	6	obj	_	_
+6	fazia	do_V2	VERB	V2	_	3	ccomp	_	_
+7	,	ExtAdvS	PUNCT	S	_	9	punct	_	_
+8	você	youSg_Pron	PRON	Pron	_	9	nsubj	_	_
+9	deve	must_VV	VERB	VV	_	0	root	_	_
+10	ir	go_V	VERB	V	_	9	xcomp	_	_
+
+
+1	ele	he_Pron	PRON	Pron	_	3	nsubj	_	_
+2	estava	UseComp	VERB	VP	_	3	cop	_	_
+3	pronto	ready_A	ADJ	A	_	0	root	_	_
+4	quando	when_Subj	SCONJ	Subj	_	7	mark	_	_
+5	eu	i_Pron	PRON	Pron	_	7	nsubj	_	_
+6	o	he_Pron	PRON	Pron	_	7	obj	_	_
+7	via	see_V2	VERB	V2	_	3	advmod	_	_
+
+
+1	regra	rule_N	NOUN	N	_	0	root	_	_
+2	inteligentemente	clever_A	ADJ	A	_	3	advmod	_	_
+3	correta	correct_A	ADJ	A	_	1	amod	_	_
+
+
+1	menos	less_CAdv	ADV	CAdv	_	4	advmod	_	_
+2	provavelmente	probable_AS	ADJ	A	_	4	amod	_	_
+3	que	less_CAdv	ADV	CAdv	_	4	advmod	_	_
+4	João	john_PN	PROPN	PN	_	0	root	_	_
+
+
+1	João	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	come	eat_V2	VERB	V2	_	0	root	_	_
+3	carne	meat_N	NOUN	N	_	2	obj	_	_
+4	vermelha	red_A	ADJ	A	_	3	amod	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	há	PredVP	AUX	Cl	_	3	aux	_	_
+3	morrido	die_V	VERB	V	_	0	root	_	_
+
+
+1	ele	he_Pron	PRON	Pron	_	2	nsubj	_	_
+2	deve	must_VV	VERB	VV	_	0	root	_	_
+3	ir	go_V	VERB	V	_	2	xcomp	_	_
+
+
+1	João	john_PN	PROPN	PN	_	4	nsubj	_	_
+2	há	PredVP	AUX	Cl	_	4	aux	_	_
+3	sido	PassV2	AUX	VP	_	4	aux:pass	_	_
+4	matado	kill_V2	VERB	V2	_	0	root	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	era	PassV2	AUX	VP	_	3	aux:pass	_	_
+3	matado	kill_V2	VERB	V2	_	0	root	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	via	see_V2	VERB	V2	_	0	root	_	_
+3	um	IndefArt	DET	Quant	_	4	det	_	_
+4	gato	cat_N	NOUN	N	_	2	obj	_	_
+5	em	IndefArt	DET	Quant	_	7	det	_	_
+6	um	IndefArt	DET	Quant	_	7	det	_	_
+7	chapéu	hat_N	NOUN	N	_	4	nmod	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	via	see_V2	VERB	V2	_	0	root	_	_
+3	um	IndefArt	DET	Quant	_	4	det	_	_
+4	gato	cat_N	NOUN	N	_	2	obj	_	_
+5	com	with_Prep	ADP	Prep	_	7	case	_	_
+6	meus	i_Pron	PRON	Pron	_	7	det	_	_
+7	olhos	eye_N	NOUN	N	_	2	advmod	_	_
+
+
+1	ele	he_Pron	PRON	Pron	_	5	nsubj	_	_
+2	é	UseComp	VERB	VP	_	5	cop	_	_
+3	casado	married_A2	ADJ	A2	_	5	amod	_	_
+4	com	married_A2	ADJ	A2	_	5	amod	_	_
+5	ela	she_Pron	PRON	Pron	_	0	root	_	_
+
+
+1	e	and_Conj	CONJ	Conj	_	3	cc	_	_
+2	nós	we_Pron	PRON	Pron	_	3	nsubj	_	_
+3	íamos	go_V	VERB	V	_	0	root	_	_
+
+
+1	tanto	both7and_DConj	CONJ	Conj	_	3	cc	_	_
+2	os	DefArt	DET	Quant	_	3	det	_	_
+3	meninos	boy_N	NOUN	N	_	8	nsubj	_	_
+4	quanto	both7and_DConj	CONJ	Conj	_	3	cc	_	_
+5	as	DefArt	DET	Quant	_	6	det	_	_
+6	meninas	girl_N	NOUN	N	_	3	conj	_	_
+7	estão	UseComp	VERB	VP	_	8	cop	_	_
+8	aqui	here_Adv	ADV	Adv	_	0	root	_	_
+
+
+1	ele	he_Pron	PRON	Pron	_	2	nsubj	_	_
+2	diz	say_VS	VERB	VS	_	0	root	_	_
+3	que	ComplVS	SCONJ	VP	_	2	mark	_	_
+4	você	youSg_Pron	PRON	Pron	_	5	nsubj	_	_
+5	quer	want_VV	VERB	VV	_	2	ccomp	_	_
+6	nadar	swim_V	VERB	V	_	5	xcomp	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	3	nsubj	_	_
+2	sou	UseComp	VERB	VP	_	3	cop	_	_
+3	incerto	uncertain_A	ADJ	A	_	0	root	_	_
+4	que	EmbedS	PRON	SC	_	7	nsubj	_	_
+5	ele	he_Pron	PRON	Pron	_	7	nsubj	_	_
+6	o	it_Pron	PRON	Pron	_	7	obj	_	_
+7	fazia	do_V2	VERB	V2	_	3	acl	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	tenho	have_V2	VERB	V2	_	0	root	_	_
+3	quatro	n4	Digit	Digit	_	0	root	_	_
+4	mil	pot3	Sub1000000	Sub1000000	_	3	dep	_	_
+5	ovelhas	sheep_N	NOUN	N	_	2	obj	_	_
+
+
+1	eles	they_Pron	PRON	Pron	_	2	nsubj	_	_
+2	apagam	switch8off_V2	VERB	V2	_	0	root	_	_
+3	a	DefArt	DET	Quant	_	4	det	_	_
+4	televisão	television_N	NOUN	N	_	2	obj	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	é	UseComp	VERB	VP	_	3	cop	_	_
+3	grande	big_A	ADJ	A	_	0	root	_	_
+4	e	and_Conj	CONJ	Conj	_	3	cc	_	_
+5	inteligente	clever_A	ADJ	A	_	3	conj	_	_
+
+
+1	João	john_PN	PROPN	PN	_	4	nsubj	_	_
+2	é	UseComp	VERB	VP	_	4	cop	_	_
+3	um	CompCN	DET	Comp	_	4	det	_	_
+4	homem	man_N	NOUN	N	_	0	root	_	_
+5	inteligente	clever_A	ADJ	A	_	4	amod	_	_
+
+
+1	João	john_PN	PROPN	PN	_	4	nsubj	_	_
+2	está	UseComp	VERB	VP	_	4	cop	_	_
+3	da	DefArt	DET	Quant	_	4	det	_	_
+4	cidade	city_N	NOUN	N	_	0	root	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	é	UseComp	VERB	VP	_	3	cop	_	_
+3	inteligente	clever_A	ADJ	A	_	0	root	_	_
+
+
+1	ele	it_Pron	PRON	Pron	_	3	nsubj	_	_
+2	estava	UseComp	VERB	VP	_	3	cop	_	_
+3	hoje	today_Adv	ADV	Adv	_	0	root	_	_
+
+
+1	que	whatSg_IP	PRON	IP	_	0	root	_	_
+2	é	QuestIComp	VERB	QCl	_	1	cop	_	_
+3	esse	that_Quant	DET	Quant	_	1	nsubj	_	_
+
+
+1	ele	it_Pron	PRON	Pron	_	6	nsubj	_	_
+2	estava	UseComp	VERB	VP	_	6	cop	_	_
+3	porque	because_Subj	SCONJ	Subj	_	6	mark	_	_
+4	João	john_PN	PROPN	PN	_	6	nsubj	_	_
+5	é	UseComp	VERB	VP	_	6	cop	_	_
+6	inteligente	clever_A	ADJ	A	_	0	root	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	se	PredVP	PRON	Cl	_	3	expl	_	_
+3	tornava	become_VA	VERB	VA	_	0	root	_	_
+4	inteligente	clever_A	ADJ	A	_	3	xcomp	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	está	ProgrVP	VERB	VP	_	3	cop	_	_
+3	dormindo	sleep_V	VERB	V	_	0	root	_	_
+
+
+1	há	ExistNPAdv	VERB	Cl	_	3	root	_	_
+2	uma	IndefArt	DET	Quant	_	3	det	_	_
+3	vaca	cow_N	NOUN	N	_	0	root	_	_
+4	na	DefArt	DET	Quant	_	5	det	_	_
+5	floresta	forest_N	NOUN	N	_	3	nmod	_	_
+
+
+1	que	whatSg_IP	PRON	IP	_	3	obj	_	_
+2	ela	she_Pron	PRON	Pron	_	3	nsubj	_	_
+3	fazia	do_V2	VERB	V2	_	5	csubj	_	_
+4	é	UseComp	VERB	VP	_	5	cop	_	_
+5	importante	important_A	ADJ	A	_	0	root	_	_
+
+
+1	que	EmbedS	PRON	SC	_	3	nsubj	_	_
+2	ela	she_Pron	PRON	Pron	_	3	nsubj	_	_
+3	dormia	sleep_V	VERB	V	_	5	csubj	_	_
+4	era	PassV2	AUX	VP	_	5	aux:pass	_	_
+5	visto	see_V2	VERB	V2	_	0	root	_	_
+6	por	everything_NP	NP	NP	_	5	advmod	_	_
+7	tudo	everything_NP	NP	NP	_	5	advmod	_	_
+
+
+1	o	DefArt	DET	Quant	_	2	det	_	_
+2	homem	man_N	NOUN	N	_	4	nsubj	_	_
+3	está	UseComp	VERB	VP	_	4	cop	_	_
+4	aqui	here_Adv	ADV	Adv	_	0	root	_	_
+
+
+1	de	which_IQuant	DET	IQuant	_	3	det	_	_
+2	qual	which_IQuant	DET	IQuant	_	3	det	_	_
+3	livro	book_N	NOUN	N	_	4	obj	_	_
+4	gosta	like_V2	VERB	V2	_	0	root	_	_
+5	você	youSg_Pron	PRON	Pron	_	4	nsubj	_	_
+
+
+1	todos	all_Predet	DET	Predet	_	3	det	_	_
+2	os	DefArt	DET	Quant	_	3	det	_	_
+3	meninos	boy_N	NOUN	N	_	5	nsubj	_	_
+4	estão	UseComp	VERB	VP	_	5	cop	_	_
+5	aqui	here_Adv	ADV	Adv	_	0	root	_	_
+
+
+1	ela	she_Pron	PRON	Pron	_	3	nsubj	_	_
+2	me	i_Pron	PRON	Pron	_	3	iobj	_	_
+3	dava	give_V3	VERB	V3	_	0	root	_	_
+4	uma	IndefArt	DET	Quant	_	5	det	_	_
+5	maçã	apple_N	NOUN	N	_	3	obj	_	_
+
+
+1	há	ExistNPAdv	VERB	Cl	_	3	root	_	_
+2	um	IndefArt	DET	Quant	_	3	det	_	_
+3	gato	cat_N	NOUN	N	_	0	root	_	_
+4	na	DefArt	DET	Quant	_	5	det	_	_
+5	casa	house_N	NOUN	N	_	3	nmod	_	_
+
+
+1	meninos	boy_N	NOUN	N	_	3	nsubj	_	_
+2	estavam	ProgrVP	AUX	VP	_	3	aux	_	_
+3	nadando	swim_V	VERB	V	_	0	root	_	_
+4	quando	when_Subj	SCONJ	Subj	_	7	mark	_	_
+5	as	DefArt	DET	Quant	_	6	det	_	_
+6	meninas	girl_N	NOUN	N	_	7	nsubj	_	_
+7	vinham	come_V	VERB	V	_	3	advmod	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	queria	want_VV	VERB	VV	_	0	root	_	_
+3	comer	eat_V2	VERB	V2	_	2	xcomp	_	_
+4	o	it_Pron	PRON	Pron	_	3	obj	_	_
+
+
+1	João	john_PN	PROPN	PN	_	5	nsubj	_	_
+2	não	UseComp	ADV	VP	_	5	advmod	_	_
+3	é	UseComp	VERB	VP	_	5	cop	_	_
+4	um	IndefArt	DET	Quant	_	5	det	_	_
+5	médico	doctor_N	NOUN	N	_	0	root	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	não	UseV	ADV	VP	_	3	advmod	_	_
+3	ri	laugh_V	VERB	V	_	0	root	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	não	SlashV2a	ADV	VPSlash	_	3	advmod	_	_
+3	via	see_V2	VERB	V2	_	0	root	_	_
+4	nenhuns	no_Quant	DET	Quant	_	5	det	_	_
+5	animais	animal_N	NOUN	N	_	3	obj	_	_
+
+
+1	a	DefArt	DET	Quant	_	2	det	_	_
+2	casa	house_N	NOUN	N	_	0	root	_	_
+3	do	DefArt	DET	Quant	_	4	det	_	_
+4	médico	doctor_N	NOUN	N	_	2	nmod	_	_
+
+
+1	envia	send_V3	VERB	V3	_	0	root	_	_
+2	às	DefArt	DET	Quant	_	3	det	_	_
+3	crianças	child_N	NOUN	N	_	1	obj	_	_
+4	as	DefArt	DET	Quant	_	5	det	_	_
+5	maçãs	apple_N	NOUN	N	_	1	iobj	_	_
+
+
+1	o	DefArt	DET	Quant	_	2	det	_	_
+2	menino	boy_N	NOUN	N	_	4	nsubj	_	_
+3	tem	has_age_VP	VP	VP	_	4	dep	_	_
+4	6	D_6	Dig	Dig	_	0	root	_	_
+5	anos	has_age_VP	VP	VP	_	4	dep	_	_
+
+
+1	a	DefArt	DET	Quant	_	2	det	_	_
+2	ciência	science_N	NOUN	N	_	4	nsubj	_	_
+3	é	UseComp	VERB	VP	_	4	cop	_	_
+4	importante	important_A	ADJ	A	_	0	root	_	_
+5	ela	SelfAdVVP	PRON	VP	_	4	obl	_	_
+6	própria	SelfAdVVP	DET	VP	_	4	det	_	_
+
+
+1	hoje	today_Adv	ADV	Adv	_	4	advmod	_	_
+2	,	ExtAdvS	PUNCT	S	_	4	punct	_	_
+3	eu	i_Pron	PRON	Pron	_	4	nsubj	_	_
+4	nadava	swim_V	VERB	V	_	0	root	_	_
+5	no	DefArt	DET	Quant	_	6	det	_	_
+6	mar	sea_N	NOUN	N	_	4	advmod	_	_
+
+
+1	você	youSg_Pron	PRON	Pron	_	2	nsubj	_	_
+2	deve	must_VV	VERB	VV	_	0	root	_	_
+3	ler	read_V2	VERB	V2	_	2	xcomp	_	_
+4	o	DefArt	DET	Quant	_	5	det	_	_
+5	livro	book_N	NOUN	N	_	3	obj	_	_
+6	antes	before_Prep	ADP	Prep	_	8	case	_	_
+7	de	UsePN	ADP	NP	_	8	case	_	_
+8	segunda	monday_Weekday	Weekday	Weekday	_	2	advmod	_	_
+
+
+1	João	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	o	he_Pron	PRON	Pron	_	3	obj	_	_
+3	matava	kill_V2	VERB	V2	_	0	root	_	_
+
+
+1	ele	he_Pron	PRON	Pron	_	3	nsubj	_	_
+2	era	PassV2	AUX	VP	_	3	aux:pass	_	_
+3	matado	kill_V2	VERB	V2	_	0	root	_	_
+4	por	UsePN	ADP	NP	_	5	case	_	_
+5	João	john_PN	PROPN	PN	_	3	advmod	_	_
+
+
+1	João	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	comia	eat_V2	VERB	V2	_	0	root	_	_
+3	3	D_3	Dig	Dig	_	0	root	_	_
+4	ovelhas	sheep_N	NOUN	N	_	2	obj	_	_
+
+
+1	João	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	encontrava	find_V2	VERB	V2	_	0	root	_	_
+3	quarenta	n4	Digit	Digit	_	0	root	_	_
+4	gatos	cat_N	NOUN	N	_	2	obj	_	_
+
+
+1	vai	go_V	VERB	V	_	0	root	_	_
+2	à	DefArt	DET	Quant	_	3	det	_	_
+3	casa	house_N	NOUN	N	_	1	advmod	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	amo	love_V2	VERB	V2	_	0	root	_	_
+3	maçãs	apple_N	NOUN	N	_	2	obj	_	_
+4	vermelhas	red_A	ADJ	A	_	3	amod	_	_
+
+
+1	João	john_PN	PROPN	PN	_	4	nsubj	_	_
+2	é	UseComp	VERB	VP	_	4	cop	_	_
+3	um	IndefArt	DET	Quant	_	4	det	_	_
+4	homem	man_N	NOUN	N	_	0	root	_	_
+5	inteligente	clever_A	ADJ	A	_	4	amod	_	_
+
+
+1	vinde	come_V	VERB	V	_	0	root	_	_
+2	aqui	here_Adv	ADV	Adv	_	1	advmod	_	_
+3	,	VocNP	PUNCT	Voc	_	4	punct	_	_
+4	meninos	boy_N	NOUN	N	_	1	discourse	_	_
+
+
+1	ela	she_Pron	PRON	Pron	_	2	nsubj	_	_
+2	rogava	beg_V2V	VERB	V2V	_	0	root	_	_
+3	João	john_PN	PROPN	PN	_	2	obj	_	_
+4	a	SlashV2V	ADP	VPSlash	_	2	mark	_	_
+5	encontrar	find_V2	VERB	V2	_	2	xcomp	_	_
+6	seu	she_Pron	PRON	Pron	_	7	det	_	_
+7	cachorro	dog_N	NOUN	N	_	5	obj	_	_
+
+
+1	eu	i_Pron	PRON	Pron	_	3	nsubj	_	_
+2	o	it_Pron	PRON	Pron	_	3	obj	_	_
+3	pinto	paint_V2A	VERB	V2A	_	0	root	_	_
+4	em	paint_V2A	VERB	V2A	_	0	root	_	_
+5	vermelho	red_A	ADJ	A	_	3	xcomp	_	_
+
+
+1	ela	she_Pron	PRON	Pron	_	3	nsubj	_	_
+2	se	PredVP	PRON	Cl	_	3	expl	_	_
+3	torna	become_VA	VERB	VA	_	0	root	_	_
+4	muito	very_AdA	ADV	AdA	_	5	advmod	_	_
+5	bela	beautiful_A	ADJ	A	_	3	xcomp	_	_
+
+

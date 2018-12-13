@@ -1,0 +1,439 @@
+1	the	DefArt	DET	Quant	_	2	det	_	_
+2	children	child_N	NOUN	N	_	0	root	_	_
+3	when	when_Subj	SCONJ	Subj	_	5	mark	_	_
+4	we	we_Pron	PRON	Pron	_	5	nsubj	_	_
+5	see	see_V2	VERB	V2	_	2	nmod	_	_
+6	them	they_Pron	PRON	Pron	_	5	obj	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	have	have_V2	VERB	V2	_	0	root	_	_
+3	a	IndefArt	DET	Quant	_	4	det	_	_
+4	reason	reason_N	NOUN	N	_	2	obj	_	_
+5	to	EmbedVP	PART	SC	_	6	mark	_	_
+6	go	go_V	VERB	V	_	4	acl	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	like	like_V2	VERB	V2	_	0	root	_	_
+3	the	DefArt	DET	Quant	_	4	det	_	_
+4	rule	rule_N	NOUN	N	_	2	obj	_	_
+5	that	EmbedS	PART	SC	_	9	mark	_	_
+6	the	DefArt	DET	Quant	_	7	det	_	_
+7	books	book_N	NOUN	N	_	9	nsubj	_	_
+8	are	UseComp	VERB	VP	_	9	cop	_	_
+9	thin	thin_A	ADJ	A	_	4	acl	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	saw	see_V2	VERB	V2	_	0	root	_	_
+3	the	DefArt	DET	Quant	_	4	det	_	_
+4	man	man_N	NOUN	N	_	2	obj	_	_
+5	that	IdRP	PRON	RP	_	7	mark	_	_
+6	you	youSg_Pron	PRON	Pron	_	7	nsubj	_	_
+7	love	love_V2	VERB	V2	_	4	acl	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	saw	see_V2	VERB	V2	_	0	root	_	_
+3	the	DefArt	DET	Quant	_	4	det	_	_
+4	book	book_N	NOUN	N	_	2	obj	_	_
+5	that	IdRP	PRON	RP	_	7	mark	_	_
+6	you	youSg_Pron	PRON	Pron	_	7	nsubj	_	_
+7	bought	buy_V2	VERB	V2	_	4	acl	_	_
+
+
+1	the	DefArt	DET	Quant	_	2	det	_	_
+2	cat	cat_N	NOUN	N	_	3	nsubj	_	_
+3	jumped	jump_V	VERB	V	_	0	root	_	_
+4	when	when_Subj	SCONJ	Subj	_	7	mark	_	_
+5	the	DefArt	DET	Quant	_	6	det	_	_
+6	dog	dog_N	NOUN	N	_	7	nsubj	_	_
+7	came	come_V	VERB	V	_	3	advmod	_	_
+
+
+1	if	if_Subj	SCONJ	Subj	_	3	mark	_	_
+2	you	youSg_Pron	PRON	Pron	_	3	nsubj	_	_
+3	know	know_VQ	VERB	VQ	_	9	advmod	_	_
+4	who	whoSg_IP	PRON	IP	_	5	nsubj	_	_
+5	did	do_V2	VERB	V2	_	3	ccomp	_	_
+6	it	it_Pron	PRON	Pron	_	5	obj	_	_
+7	,	ExtAdvS	PUNCT	S	_	9	punct	_	_
+8	you	youSg_Pron	PRON	Pron	_	9	nsubj	_	_
+9	must	must_VV	VERB	VV	_	0	root	_	_
+10	go	go_V	VERB	V	_	9	xcomp	_	_
+
+
+1	he	he_Pron	PRON	Pron	_	3	nsubj	_	_
+2	was	UseComp	VERB	VP	_	3	cop	_	_
+3	ready	ready_A	ADJ	A	_	0	root	_	_
+4	when	when_Subj	SCONJ	Subj	_	6	mark	_	_
+5	I	i_Pron	PRON	Pron	_	6	nsubj	_	_
+6	saw	see_V2	VERB	V2	_	3	advmod	_	_
+7	him	he_Pron	PRON	Pron	_	6	obj	_	_
+
+
+1	cleverly	clever_A	ADJ	A	_	2	advmod	_	_
+2	correct	correct_A	ADJ	A	_	3	amod	_	_
+3	rule	rule_N	NOUN	N	_	0	root	_	_
+
+
+1	less	less_CAdv	ADV	CAdv	_	4	advmod	_	_
+2	probably	probable_AS	ADJ	A	_	4	amod	_	_
+3	than	less_CAdv	ADV	CAdv	_	4	advmod	_	_
+4	John	john_PN	PROPN	PN	_	0	root	_	_
+
+
+1	John	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	eats	eat_V2	VERB	V2	_	0	root	_	_
+3	red	red_A	ADJ	A	_	4	amod	_	_
+4	meat	meat_N	NOUN	N	_	2	obj	_	_
+
+
+1	John	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	has	UseV	AUX	VP	_	3	aux	_	_
+3	died	die_V	VERB	V	_	0	root	_	_
+
+
+1	he	he_Pron	PRON	Pron	_	2	nsubj	_	_
+2	must	must_VV	VERB	VV	_	0	root	_	_
+3	go	go_V	VERB	V	_	2	xcomp	_	_
+
+
+1	John	john_PN	PROPN	PN	_	4	nsubj	_	_
+2	has	PassV2	AUX	VP	_	4	aux	_	_
+3	been	PassV2	VERB	VP	_	4	auxpass	_	_
+4	killed	kill_V2	VERB	V2	_	0	root	_	_
+
+
+1	John	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	was	PassV2	VERB	VP	_	3	auxpass	_	_
+3	killed	kill_V2	VERB	V2	_	0	root	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	saw	see_V2	VERB	V2	_	0	root	_	_
+3	a	IndefArt	DET	Quant	_	4	det	_	_
+4	cat	cat_N	NOUN	N	_	2	obj	_	_
+5	in	in_Prep	ADP	Prep	_	7	case	_	_
+6	a	IndefArt	DET	Quant	_	7	det	_	_
+7	hat	hat_N	NOUN	N	_	4	nmod	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	saw	see_V2	VERB	V2	_	0	root	_	_
+3	a	IndefArt	DET	Quant	_	4	det	_	_
+4	cat	cat_N	NOUN	N	_	2	obj	_	_
+5	with	with_Prep	ADP	Prep	_	7	case	_	_
+6	my	i_Pron	PRON	Pron	_	7	det	_	_
+7	eyes	eye_N	NOUN	N	_	2	advmod	_	_
+
+
+1	he	he_Pron	PRON	Pron	_	5	nsubj	_	_
+2	is	UseComp	VERB	VP	_	5	cop	_	_
+3	married	married_A2	ADJ	A2	_	5	amod	_	_
+4	to	married_A2	ADJ	A2	_	5	amod	_	_
+5	her	she_Pron	PRON	Pron	_	0	root	_	_
+
+
+1	and	and_Conj	CONJ	Conj	_	3	cc	_	_
+2	we	we_Pron	PRON	Pron	_	3	nsubj	_	_
+3	went	go_V	VERB	V	_	0	root	_	_
+
+
+1	both	both7and_DConj	CONJ	Conj	_	3	cc	_	_
+2	the	DefArt	DET	Quant	_	3	det	_	_
+3	boys	boy_N	NOUN	N	_	8	nsubj	_	_
+4	and	both7and_DConj	CONJ	Conj	_	3	cc	_	_
+5	the	DefArt	DET	Quant	_	6	det	_	_
+6	girls	girl_N	NOUN	N	_	3	conj	_	_
+7	are	UseComp	VERB	VP	_	8	cop	_	_
+8	here	here_Adv	ADV	Adv	_	0	root	_	_
+
+
+1	he	he_Pron	PRON	Pron	_	2	nsubj	_	_
+2	says	say_VS	VERB	VS	_	0	root	_	_
+3	that	ComplVS	PART	VP	_	2	mark	_	_
+4	you	youSg_Pron	PRON	Pron	_	5	nsubj	_	_
+5	want	want_VV	VERB	VV	_	2	ccomp	_	_
+6	to	ComplVV	PART	VP	_	7	mark	_	_
+7	swim	swim_V	VERB	V	_	5	xcomp	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	3	nsubj	_	_
+2	am	UseComp	VERB	VP	_	3	cop	_	_
+3	uncertain	uncertain_A	ADJ	A	_	0	root	_	_
+4	that	EmbedS	PART	SC	_	6	mark	_	_
+5	he	he_Pron	PRON	Pron	_	6	nsubj	_	_
+6	did	do_V2	VERB	V2	_	3	acl	_	_
+7	it	it_Pron	PRON	Pron	_	6	obj	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	have	have_V2	VERB	V2	_	0	root	_	_
+3	four	n4	Digit	Digit	_	0	root	_	_
+4	thousand	pot3	Sub1000000	Sub1000000	_	3	dep	_	_
+5	sheep	sheep_N	NOUN	N	_	2	obj	_	_
+
+
+1	they	they_Pron	PRON	Pron	_	2	nsubj	_	_
+2	switch	switch8off_V2	VERB	V2	_	0	root	_	_
+3	off	switch8off_V2	VERB	V2	_	0	root	_	_
+4	the	DefArt	DET	Quant	_	5	det	_	_
+5	television	television_N	NOUN	N	_	2	obj	_	_
+
+
+1	John	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	is	UseComp	VERB	VP	_	3	cop	_	_
+3	big	big_A	ADJ	A	_	0	root	_	_
+4	and	and_Conj	CONJ	Conj	_	3	cc	_	_
+5	clever	clever_A	ADJ	A	_	3	conj	_	_
+
+
+1	John	john_PN	PROPN	PN	_	5	nsubj	_	_
+2	is	UseComp	VERB	VP	_	5	cop	_	_
+3	a	CompCN	DET	Comp	_	5	det	_	_
+4	clever	clever_A	ADJ	A	_	5	amod	_	_
+5	man	man_N	NOUN	N	_	0	root	_	_
+
+
+1	John	john_PN	PROPN	PN	_	5	nsubj	_	_
+2	is	UseComp	VERB	VP	_	5	cop	_	_
+3	from	from_Prep	ADP	Prep	_	5	case	_	_
+4	the	DefArt	DET	Quant	_	5	det	_	_
+5	city	city_N	NOUN	N	_	0	root	_	_
+
+
+1	John	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	is	UseComp	VERB	VP	_	3	cop	_	_
+3	clever	clever_A	ADJ	A	_	0	root	_	_
+
+
+1	it	it_Pron	PRON	Pron	_	3	nsubj	_	_
+2	was	UseComp	VERB	VP	_	3	cop	_	_
+3	today	today_Adv	ADV	Adv	_	0	root	_	_
+
+
+1	what	whatSg_IP	PRON	IP	_	0	root	_	_
+2	is	QuestIComp	VERB	QCl	_	1	cop	_	_
+3	that	that_Quant	DET	Quant	_	1	nsubj	_	_
+
+
+1	it	it_Pron	PRON	Pron	_	6	nsubj	_	_
+2	was	UseComp	VERB	VP	_	6	cop	_	_
+3	because	because_Subj	SCONJ	Subj	_	6	mark	_	_
+4	John	john_PN	PROPN	PN	_	6	nsubj	_	_
+5	is	UseComp	VERB	VP	_	6	cop	_	_
+6	clever	clever_A	ADJ	A	_	0	root	_	_
+
+
+1	John	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	became	become_VA	VERB	VA	_	0	root	_	_
+3	clever	clever_A	ADJ	A	_	2	xcomp	_	_
+
+
+1	John	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	is	ProgrVP	VERB	VP	_	3	cop	_	_
+3	sleeping	sleep_V	VERB	V	_	0	root	_	_
+
+
+1	there	ExistNPAdv	PART	Cl	_	4	expl	_	_
+2	is	ExistNPAdv	VERB	Cl	_	4	cop	_	_
+3	a	IndefArt	DET	Quant	_	4	det	_	_
+4	cow	cow_N	NOUN	N	_	0	root	_	_
+5	in	in_Prep	ADP	Prep	_	7	case	_	_
+6	the	DefArt	DET	Quant	_	7	det	_	_
+7	forest	forest_N	NOUN	N	_	4	nmod	_	_
+
+
+1	what	whatSg_IP	PRON	IP	_	3	obj	_	_
+2	she	she_Pron	PRON	Pron	_	3	nsubj	_	_
+3	did	do_V2	VERB	V2	_	5	csubj	_	_
+4	is	UseComp	VERB	VP	_	5	cop	_	_
+5	important	important_A	ADJ	A	_	0	root	_	_
+
+
+1	that	EmbedS	PART	SC	_	3	mark	_	_
+2	she	she_Pron	PRON	Pron	_	3	nsubj	_	_
+3	slept	sleep_V	VERB	V	_	5	csubj	_	_
+4	was	PassV2	VERB	VP	_	5	auxpass	_	_
+5	seen	see_V2	VERB	V2	_	0	root	_	_
+6	by	by8agent_Prep	ADP	Prep	_	7	case	_	_
+7	everything	everything_NP	NP	NP	_	5	advmod	_	_
+
+
+1	the	DefArt	DET	Quant	_	2	det	_	_
+2	man	man_N	NOUN	N	_	4	nsubj	_	_
+3	is	UseComp	VERB	VP	_	4	cop	_	_
+4	here	here_Adv	ADV	Adv	_	0	root	_	_
+
+
+1	which	which_IQuant	DET	IQuant	_	0	root	_	_
+2	book	book_N	NOUN	N	_	5	obj	_	_
+3	do	SlashV2a	AUX	VPSlash	_	5	aux	_	_
+4	you	youSg_Pron	PRON	Pron	_	5	nsubj	_	_
+5	like	like_V2	VERB	V2	_	0	root	_	_
+
+
+1	all	all_Predet	DET	Predet	_	3	det	_	_
+2	the	DefArt	DET	Quant	_	3	det	_	_
+3	boys	boy_N	NOUN	N	_	5	nsubj	_	_
+4	are	UseComp	VERB	VP	_	5	cop	_	_
+5	here	here_Adv	ADV	Adv	_	0	root	_	_
+
+
+1	she	she_Pron	PRON	Pron	_	2	nsubj	_	_
+2	gave	give_V3	VERB	V3	_	0	root	_	_
+3	me	i_Pron	PRON	Pron	_	2	iobj	_	_
+4	an	IndefArt	DET	Quant	_	5	det	_	_
+5	apple	apple_N	NOUN	N	_	2	obj	_	_
+
+
+1	there	ExistNPAdv	PART	Cl	_	4	expl	_	_
+2	is	ExistNPAdv	VERB	Cl	_	4	cop	_	_
+3	a	IndefArt	DET	Quant	_	4	det	_	_
+4	cat	cat_N	NOUN	N	_	0	root	_	_
+5	in	in_Prep	ADP	Prep	_	7	case	_	_
+6	the	DefArt	DET	Quant	_	7	det	_	_
+7	house	house_N	NOUN	N	_	4	nmod	_	_
+
+
+1	boys	boy_N	NOUN	N	_	3	nsubj	_	_
+2	were	ProgrVP	VERB	VP	_	3	cop	_	_
+3	swimming	swim_V	VERB	V	_	0	root	_	_
+4	when	when_Subj	SCONJ	Subj	_	7	mark	_	_
+5	the	DefArt	DET	Quant	_	6	det	_	_
+6	girls	girl_N	NOUN	N	_	7	nsubj	_	_
+7	came	come_V	VERB	V	_	3	advmod	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	wanted	want_VV	VERB	VV	_	0	root	_	_
+3	to	ComplVV	PART	VP	_	4	mark	_	_
+4	eat	eat_V2	VERB	V2	_	2	xcomp	_	_
+5	it	it_Pron	PRON	Pron	_	4	obj	_	_
+
+
+1	John	john_PN	PROPN	PN	_	4	nsubj	_	_
+2	isn't	UseComp	PART	VP	_	4	neg	_	_
+3	a	IndefArt	DET	Quant	_	4	det	_	_
+4	doctor	doctor_N	NOUN	N	_	0	root	_	_
+
+
+1	John	john_PN	PROPN	PN	_	3	nsubj	_	_
+2	doesn't	UseV	PART	VP	_	3	neg	_	_
+3	laugh	laugh_V	VERB	V	_	0	root	_	_
+
+
+1	John	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	saw	see_V2	VERB	V2	_	0	root	_	_
+3	no	no_Quant	DET	Quant	_	4	det	_	_
+4	animals	animal_N	NOUN	N	_	2	obj	_	_
+
+
+1	the	DefArt	DET	Quant	_	2	det	_	_
+2	house	house_N	NOUN	N	_	0	root	_	_
+3	of	PossNP	ADP	CN	_	5	case	_	_
+4	the	DefArt	DET	Quant	_	5	det	_	_
+5	doctor	doctor_N	NOUN	N	_	2	nmod	_	_
+
+
+1	send	send_V3	VERB	V3	_	0	root	_	_
+2	the	DefArt	DET	Quant	_	3	det	_	_
+3	apples	apple_N	NOUN	N	_	1	iobj	_	_
+4	to	send_V3	VERB	V3	_	0	root	_	_
+5	the	DefArt	DET	Quant	_	6	det	_	_
+6	children	child_N	NOUN	N	_	1	obj	_	_
+
+
+1	the	DefArt	DET	Quant	_	2	det	_	_
+2	boy	boy_N	NOUN	N	_	4	nsubj	_	_
+3	is	has_age_VP	VP	VP	_	4	dep	_	_
+4	6	D_6	Dig	Dig	_	0	root	_	_
+5	years	has_age_VP	VP	VP	_	4	dep	_	_
+6	old	has_age_VP	VP	VP	_	4	dep	_	_
+
+
+1	the	DefArt	DET	Quant	_	2	det	_	_
+2	science	science_N	NOUN	N	_	5	nsubj	_	_
+3	is	UseComp	VERB	VP	_	5	cop	_	_
+4	itself	SelfAdVVP	VP	VP	_	5	dep	_	_
+5	important	important_A	ADJ	A	_	0	root	_	_
+
+
+1	today	today_Adv	ADV	Adv	_	4	advmod	_	_
+2	,	ExtAdvS	PUNCT	S	_	4	punct	_	_
+3	I	i_Pron	PRON	Pron	_	4	nsubj	_	_
+4	swam	swim_V	VERB	V	_	0	root	_	_
+5	in	in_Prep	ADP	Prep	_	7	case	_	_
+6	the	DefArt	DET	Quant	_	7	det	_	_
+7	sea	sea_N	NOUN	N	_	4	advmod	_	_
+
+
+1	you	youSg_Pron	PRON	Pron	_	2	nsubj	_	_
+2	must	must_VV	VERB	VV	_	0	root	_	_
+3	read	read_V2	VERB	V2	_	2	xcomp	_	_
+4	the	DefArt	DET	Quant	_	5	det	_	_
+5	book	book_N	NOUN	N	_	3	obj	_	_
+6	before	before_Prep	ADP	Prep	_	7	case	_	_
+7	Monday	monday_Weekday	Weekday	Weekday	_	2	advmod	_	_
+
+
+1	John	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	killed	kill_V2	VERB	V2	_	0	root	_	_
+3	him	he_Pron	PRON	Pron	_	2	obj	_	_
+
+
+1	he	he_Pron	PRON	Pron	_	3	nsubj	_	_
+2	was	PassV2	VERB	VP	_	3	auxpass	_	_
+3	killed	kill_V2	VERB	V2	_	0	root	_	_
+4	by	by8agent_Prep	ADP	Prep	_	5	case	_	_
+5	John	john_PN	PROPN	PN	_	3	advmod	_	_
+
+
+1	John	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	ate	eat_V2	VERB	V2	_	0	root	_	_
+3	3	D_3	Dig	Dig	_	0	root	_	_
+4	sheep	sheep_N	NOUN	N	_	2	obj	_	_
+
+
+1	John	john_PN	PROPN	PN	_	2	nsubj	_	_
+2	found	find_V2	VERB	V2	_	0	root	_	_
+3	forty	n4	Digit	Digit	_	0	root	_	_
+4	cats	cat_N	NOUN	N	_	2	obj	_	_
+
+
+1	John	john_PN	PROPN	PN	_	5	nsubj	_	_
+2	is	UseComp	VERB	VP	_	5	cop	_	_
+3	a	IndefArt	DET	Quant	_	5	det	_	_
+4	clever	clever_A	ADJ	A	_	5	amod	_	_
+5	man	man_N	NOUN	N	_	0	root	_	_
+
+
+1	come	come_V	VERB	V	_	0	root	_	_
+2	here	here_Adv	ADV	Adv	_	1	advmod	_	_
+3	,	VocNP	Voc	Voc	_	4	dep	_	_
+4	boys	boy_N	NOUN	N	_	1	discourse	_	_
+
+
+1	she	she_Pron	PRON	Pron	_	2	nsubj	_	_
+2	begged	beg_V2V	VERB	V2V	_	0	root	_	_
+3	John	john_PN	PROPN	PN	_	2	obj	_	_
+4	to	beg_V2V	VERB	V2V	_	0	root	_	_
+5	find	find_V2	VERB	V2	_	2	xcomp	_	_
+6	her	she_Pron	PRON	Pron	_	7	det	_	_
+7	dog	dog_N	NOUN	N	_	5	obj	_	_
+
+
+1	I	i_Pron	PRON	Pron	_	2	nsubj	_	_
+2	paint	paint_V2A	VERB	V2A	_	0	root	_	_
+3	it	it_Pron	PRON	Pron	_	2	obj	_	_
+4	red	red_A	ADJ	A	_	2	xcomp	_	_
+
+
+1	she	she_Pron	PRON	Pron	_	2	nsubj	_	_
+2	becomes	become_VA	VERB	VA	_	0	root	_	_
+3	very	very_AdA	ADV	AdA	_	4	advmod	_	_
+4	beautiful	beautiful_A	ADJ	A	_	2	xcomp	_	_
+
+

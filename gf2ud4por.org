@@ -1,0 +1,133 @@
+#+TITLE: GF2UD4POR
+#+AUTHOR: bruno cuconato
+
+* recap 
+** GF and UD
+*** ud2gf
+*** gf2ud
+
+** deriving dependency trees from decorated parse trees
+- add *abstract syntax functions* and *dependency labels* (from
+  declarative rule set)
+
+[[file:./black-cat.png]]
+
+#+BEGIN_QUOTE
+In a decorated parse tree, we mark the dependency labels at each
+branching point of the tree, but omit the "head" labels. To find the
+labelled arc for each word,
+
+1. Follow edges up from the word until a label is reached: this is the
+label of the word.
+
+2. From the dominating node, follow the (unique) path of unlabelled
+edges down to another word: this is the head of the word. A head path
+in a tree is called a spine.
+
+3. If no label is encountered on the way upwards, the word is itself
+the head of the sentence.
+#+END_QUOTE
+
+* GF UD treebank
+- built from examples from [[http://universaldependencies.org/][http://universaldependencies.org/]]
+- available at
+  https://github.com/GrammaticalFramework/gf-rgl/blob/master/treebanks/ud-rgl-trees.txt
+
+* UD treebank for Portuguese
+** revise trees
+   - wrong parse tree: =not_Predet=
+     : John isn't a doctor
+     : João é não um médico* -> João não é um médico
+   - duplicated trees
+     : sort -u ud-rgl-trees.txt
+
+** revise linearizations
+   - =they_Pron= and not =theyFem_Pron= from =Extend=
+     : the children when we see them
+     : as crianças quando nós os vemos
+   - =UseComp= wrong copula verb, no way to choose it until
+     https://github.com/GrammaticalFramework/gf-rgl/pull/98
+     : he was ready when I saw him
+     : ele era pronto quando eu o via -> ele estava pronto quando eu o via
+   - missing =SelfAdVVP= linearization definition.
+
+** add (empty) Portuguese-specific conversion rules (LangPor.labels)
+
+** produce (incomplete) CoNLL-U file with
+   #+BEGIN_SRC sh
+     rf -file=treebanks/ud-rgl-trees.txt -tree -lines
+         | vd -abslabels=src/Lang.labels -cnclabels=src/portuguese/LangPor.labels -output=conll
+         | wf -file=por-ud.conllu
+   #+END_SRC
+
+** revise CoNLL-U file and fill concrete labels file
+*** not so many rules had to be added
+see [[https://github.com/GrammaticalFramework/gf-rgl/blob/master/src/portuguese/LangPor.labels]]
+*** but there were problems:
+**** changing a token's head
+
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron he_Pron) (ComplVS say_VS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron youSg_Pron) (ComplVV want_VV (UseV swim_V)))))))) NoVoc
+[[./that.png]]
+
+/that/ should be governed by /want/, not /say/. how can we correct this?
+
+
+**** missing rule
+
+[[./sheep.png]]
+
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (UsePron i_Pron) (ComplSlash (SlashV2a have_V2) (DetCN (DetQuant IndefArt (NumCard (NumNumeral (num (pot3 (pot1as2 (pot0as1 (pot0 n4)))))))) (UseN sheep_N)))))) NoVoc
+
+/four/ is not *root*. both /four/ and /thousand/ should be governed by
+sheep by *nummod*.
+
+
+**** copula as root when copula exists?
+
+[[./there.png]]
+
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (ExistNPAdv (DetCN (DetQuant IndefArt NumSg) (UseN cow_N)) (PrepNP in_Prep (DetCN (DetQuant DefArt NumSg) (UseN forest_N)))))) NoVoc
+
+this tree should have /is/ as the *root*, but gets /cow/ as *root*
+instead. would local rules for English solve this problem? maybe
+something like
+: ExistNPAdv nsubj nmod
+: ExistNPAdv {"is"} VERB root head
+(but that doesn't work.)
+
+
+**** idiomatic constructions
+
+[[./years.png]]
+
+PhrUtt NoPConj (UttS (UseCl (TTAnt TPres ASimul) PPos (PredVP (DetCN (DetQuant DefArt NumSg) (UseN boy_N)) (has_age_VP (NumDigits (IDig D_6)))))) NoVoc
+
+the paper talks about idiomatic constructions, but the conversion
+rules don't seem to be used anymore. are you rethinking the approach
+discussed on the paper?
+
+
+**** wrong label, but...
+
+[[./come.png]]
+
+PhrUtt NoPConj (UttImpPl PPos (ImpVP (AdvVP (UseV come_V) here_Adv))) (VocNP (DetCN (DetQuant IndefArt NumPl) (UseN boy_N)))
+
+/boys/ is being labeled as *discourse* by rule
+: PhrUtt	cc head discourse
+
+* references
+** GF
+you know it :)
+
+** UD
+http://www.lrec-conf.org/proceedings/lrec2014/pdf/1062_Paper.pdf
+
+** gf2ud
+paper: http://csli-lilt.stanford.edu/ojs/index.php/LiLT/article/view/71
+code: https://github.com/GrammaticalFramework/gf-core/blob/master/src/runtime/haskell/PGF/VisualizeTree.hs#L122
+
+** ud2gf
+paper: http://www.aclweb.org/anthology/W17-0414
+code: https://github.com/GrammaticalFramework/gf-contrib/tree/master/ud2gf
+

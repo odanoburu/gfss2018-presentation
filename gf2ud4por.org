@@ -56,7 +56,7 @@ the head of the sentence.
 ** produce (incomplete) CoNLL-U file with
    #+BEGIN_SRC sh
      rf -file=treebanks/ud-rgl-trees.txt -tree -lines
-         | vd -abslabels=src/Lang.labels -cnclabels=src/portuguese/LangPor.labels -output=conll
+         | vd -abslabels=src/Lang.labels -cnclabels=src/portuguese/LangPor.labels -output=conllu -lang=Por
          | wf -file=por-ud.conllu
    #+END_SRC
 
